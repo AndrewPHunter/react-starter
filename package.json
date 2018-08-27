@@ -1,0 +1,28 @@
+{
+  "name": "react-starter",
+  "author": "Andy Hunter",
+  "license": "MIT",
+  "homepage": "https://github.com/AndrewPHunter/react-starter#readme",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "bootstrap": "(yarn install && yarn upgrade --latest react-scripts)",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@reach/router": "^1.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "prop-types": "^15.6.2",
+    "rimraf": "^2.6.2"
+  }
+}
